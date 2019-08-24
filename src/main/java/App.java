@@ -7,6 +7,29 @@ public class App {
     }
 
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+        //System.out.println(new App().getGreeting());
+//        
+//        Mobile moblie=new Mobile("huawei","black","matePro");
+//        moblie.call("use moblie");
+//        moblie.info();
+//      
+//        Iphone iphone=new Iphone();
+//		  iphone.call("use iphone call me");
+//		
+//		AndroidIphone anIphone=new AndroidIphone();
+//		anIphone.call("use Andriod");
+		
+//	Person person=new Person("xiaozhang", new Mobile("huaewei","balck","huawei"));
+//	person.call("Hello");
+		
+//	Person person=new Person("xiaozhang", new Iphone("huaewei","balck","huawei"));
+//	person.call("Hello");
+    	
+//   IphoneRobot iphoneRobot=new IphoneRobot(new Iphone("iphone11","pink","apple"));
+//   iphoneRobot.call("hello");
+    	
+    	Person person=new Person("zhangsan", new Iphone("huaewei","balck","huawei"));
+    	person.getMobile();
+	
     }
 }
